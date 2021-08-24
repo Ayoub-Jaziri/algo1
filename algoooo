@@ -9,8 +9,10 @@ BEGIN
       read(tab)
        C= length.x
       FOR i FROM 0 TO length.x STEP i=i+1  DO
-              IF (x[i]=tab[i]) THEN
-                  V=v+1;
+           FOR j FROM 0 TO length.tab STEP j=j+1  DO
+              IF (x[i]=tab[j]) THEN
+                  V=V+1;
+                    END_FOR
               if (X[i]=" ") THEN
                  W=W+1;
             
