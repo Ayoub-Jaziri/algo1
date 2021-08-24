@@ -1,7 +1,7 @@
 ALGORITHM algoo
 VAR
     x : STRING
-    W,V,C,i : INTEGER
+    W,V,C,i,j : INTEGER
     tab:= array_name : ARRAY_OF type = ['a','e','i','o','u'];
 BEGIN
      
