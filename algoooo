@@ -2,7 +2,7 @@ ALGORITHM algoo
 VAR
     x : STRING
     W,V,C,i : INTEGER
-    tab:= array_name : ARRAY_OF type = ['a','e','i','o','u'];
+    tab:= array_name : ARRAY_OF CHAR = ['a','e','i','o','u'];
 BEGIN
      
       read(x)
