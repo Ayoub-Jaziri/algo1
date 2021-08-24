@@ -1,0 +1,26 @@
+ALGORITHM algoo
+VAR
+    x : STRING
+    W,V,C,i : INTEGER
+    tab:= array_name : ARRAY_OF type = ['a','e','i','o','u'];
+BEGIN
+     
+      read(x)
+      read(tab)
+       C= length.x
+      FOR i FROM 0 TO length.x STEP i=i+1  DO
+              IF (x[i]=tab[i]) THEN
+                  V=v+1;
+              if (X[i]=" ") THEN
+                 W=W+1;
+            
+             END_IF
+          
+      END_FOR
+        
+      
+      
+    write (V)
+    write (W)
+    write (c)
+END
