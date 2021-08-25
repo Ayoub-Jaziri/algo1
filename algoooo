@@ -2,14 +2,15 @@ ALGORITHM algoo
 VAR
     x : STRING
     W,V,C,i : INTEGER
-    tab:= array_name : ARRAY_OF CHAR = ['a','e','i','o','u'];
+    W=0;
+    V=0;
+    tab:= array_name : ARRAY_OF CHAR = ['a','e','i','o','u','y'];
+    C= length.x;
 BEGIN
      
-      read(x)
-      read(tab)
-       C= length.x
-      FOR i FROM 0 TO length.x-1 STEP 1  DO
-           FOR j FROM 0 TO length.tab-1 STEP j=j+1  DO
+      read(x)  
+      FOR i FROM 0 TO x.length-1 STEP 1  DO
+           FOR j FROM 0 TO tab.length-1 STEP j=j+1  DO
               IF (x[i]=tab[j]) THEN
                   V=V+1;
                     END_FOR
@@ -24,5 +25,5 @@ BEGIN
       
     write (V)
     write (W)
-    write (c)
+    write (C)
 END
